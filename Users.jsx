@@ -15,4 +15,27 @@ export default class Users extends Component {
     constructor(props) {
         super(props);
     }
+
+    render() {
+        const {users} = this.props;
+
+        return <div>
+            <table>
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                {
+                    users.map(user => {
+                        return <User key={user.id} user={user}/>
+                    })
+                }
+                </tbody>
+            </table>
+        </div>;
+    }
 }

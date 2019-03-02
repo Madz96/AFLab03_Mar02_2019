@@ -1,7 +1,6 @@
 {
   "name": "aflab3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "parcel-bundler": "^1.11.0",
@@ -15,5 +14,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madz96/AFLab03_Mar02_2019.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Madz96/AFLab03_Mar02_2019/issues"
+  },
+  "homepage": "https://github.com/Madz96/AFLab03_Mar02_2019#readme",
+  "description": ""
 }
